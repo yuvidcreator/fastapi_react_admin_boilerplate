@@ -3246,7 +3246,7 @@ chmod +x init.sh
 #==============================================================================
 echo "🛠  Creating Startup CLI..."
 
-cat >> startup.sh << 'MANAGE_EOF'
+cat >> backend/startup.sh << 'MANAGE_EOF'
 #!/bin/bash
 set -e
 
